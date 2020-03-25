@@ -1,0 +1,12 @@
+// Main Stylesheet
+
+$primary: #001f41;
+$primaryLight: #ccdaea;
+$secondary: #daa287;
+$secondaryLight: #f9dcce;
+
+@import "compass/css3";
+@import 'reset';
+@import 'main';
+@import 'mediaqueries';
+@import 'print';

@@ -1,0 +1,72 @@
+/* Width
+-------------------------------------------- */
+@media (max-width: 1040px) {
+    .wrapper {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 915px) {
+    .header-wrapper {
+        height: 120px;
+    }
+    main {
+        padding-top: 120px;
+    }
+}
+
+@media (max-width: 800px) {
+    .mobile-button {
+	    display: inline-block;
+    }
+    header .navigation {
+	    display: none;
+    }
+	.wrapper {
+		padding: 0 30px;	
+	}
+	.header-wrapper {
+		padding: 0 30px;
+	}
+    .site-notice .text p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .header-wrapper {
+        height: 80px;
+    }
+    .site-notice .text p {
+        font-size: 13px;
+    }
+    .site-notice-dismiss {
+        right: 5px;
+    }
+    .copyright .divider {
+        padding: 0 10px;
+    }
+    .footer-container {
+        padding: 0 25px;
+    }
+    .copyright p {
+        text-align: center;
+        display: block;
+    }
+}
+
+@media (max-width: 450px) {
+	.header-wrapper {
+    	padding: 0 20px;
+	}
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+    //Insert retina background images here
+}

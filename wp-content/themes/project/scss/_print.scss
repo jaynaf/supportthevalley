@@ -1,0 +1,12 @@
+@media print {
+    .page-header .nav,
+    #small_menu_wrap,
+    .secondary-nav {
+        display: none !important;
+    }
+    // a:after {
+    //     content: " (" attr(href) ")";
+    //     font-size: 11px;
+    //     text-transform: none;
+    // }
+}

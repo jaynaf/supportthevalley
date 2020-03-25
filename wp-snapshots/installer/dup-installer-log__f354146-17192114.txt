@@ -1,0 +1,711 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 07:24:22
+* VERSION: 1.3.28
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.1.12                                |7.3.15
+OS__________________: Darwin                                |Linux
+CREATED_____________: 2020-03-17 19:21:14
+WP VERSION__________: 5.3.2
+DUP VERSION_________: 1.3.28
+DB__________________: 5.6.38
+DB TABLES___________: 61
+DB ROWS_____________: 764
+DB FILE SIZE________: 4.2MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.15 | SAPI: cgi-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "/home/capari12/public_html/dev/project"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "https://dev.capari.co/project/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20200317_project_f3541466f277ba766987_20200317192114_archive.zip"
+SIZE________________: 44.99MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+>>> Starting Shell-Exec Unzip:
+Command: unzip -o -qq '/home/capari12/public_html/dev/project/20200317_project_f3541466f277ba766987_20200317192114_archive.zip' -d '/home/capari12/public_html/dev/project' 2>&1
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 07:24:25 - RUNTIME: 3.7965 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 07:24:50
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.6.40 -- Build Server: 5.6.38
+FILE SIZE:	dup-database__f354146-17192114.sql (826.51KB)
+TIMEOUT:	5000
+MAXPACK:	33554432
+SQLMODE:	NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/capari12/public_html/dev/project/dup-installer/dup-installer-data__f354146-17192114.sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	14
+RENAMED TABLES:	0
+QUERIES RAN:	834
+
+wp_actionscheduler_actions: (8)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (1)
+wp_actionscheduler_logs: (24)
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_gf_addon_feed: (0)
+wp_gf_addon_payment_callback: (0)
+wp_gf_addon_payment_transaction: (0)
+wp_gf_draft_submissions: (0)
+wp_gf_entry: (0)
+wp_gf_entry_meta: (0)
+wp_gf_entry_notes: (0)
+wp_gf_form: (1)
+wp_gf_form_meta: (1)
+wp_gf_form_revisions: (0)
+wp_gf_form_view: (0)
+wp_gf_rest_api_keys: (1)
+wp_links: (0)
+wp_options: (321)
+wp_pimwick_gift_card: (0)
+wp_pimwick_gift_card_activity: (0)
+wp_postmeta: (190)
+wp_posts: (28)
+wp_term_relationships: (7)
+wp_term_taxonomy: (18)
+wp_termmeta: (3)
+wp_terms: (18)
+wp_usermeta: (26)
+wp_users: (1)
+wp_wc_admin_note_actions: (5)
+wp_wc_admin_notes: (4)
+wp_wc_category_lookup: (1)
+wp_wc_customer_lookup: (0)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (0)
+wp_wc_order_product_lookup: (0)
+wp_wc_order_stats: (0)
+wp_wc_order_tax_lookup: (0)
+wp_wc_product_meta_lookup: (4)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_wcpv_commissions: (0)
+wp_wcpv_per_product_shipping_rules: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (0)
+wp_woocommerce_order_items: (0)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_yoast_seo_links: (11)
+wp_yoast_seo_meta: (6)
+Removed '87' cache/transient rows
+
+INSERT DATA RUNTIME: 2.3078 sec.
+STEP-2 COMPLETE @ 07:24:52 - RUNTIME: 2.3559 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 07:24:58
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Project"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/Applications/MAMP/htdocs/shop"
+path_new______________: "/home/capari12/public_html/dev/project"
+siteurl_______________: "https://dev.capari.co/project"
+url_old_______________: "http://localhost/shop"
+url_new_______________: "https://dev.capari.co/project"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "capari12_shop"
+dbname________________: "capari12_shop"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  4:"\Applications\MAMP\htdocs\shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  7:"//localhost/shop" ================================> "//dev.capari.co/project"
+	SEARCH  8:"\/\/localhost\/shop" =============================> "\/\/dev.capari.co\/project"
+	SEARCH  9:"%2F%2Flocalhost%2Fshop" ==========================> "%2F%2Fdev.capari.co%2Fproject"
+	SEARCH 10:"http://dev.capari.co/project" ====================> "https://dev.capari.co/project"
+	SEARCH 11:"http:\/\/dev.capari.co\/project" =================> "https:\/\/dev.capari.co\/project"
+	SEARCH 12:"http%3A%2F%2Fdev.capari.co%2Fproject" ============> "https%3A%2F%2Fdev.capari.co%2Fproject"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  4:"\Applications\MAMP\htdocs\shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  7:"//localhost/shop" ================================> "//dev.capari.co/project"
+	SEARCH  8:"\/\/localhost\/shop" =============================> "\/\/dev.capari.co\/project"
+	SEARCH  9:"%2F%2Flocalhost%2Fshop" ==========================> "%2F%2Fdev.capari.co%2Fproject"
+	SEARCH 10:"http://dev.capari.co/project" ====================> "https://dev.capari.co/project"
+	SEARCH 11:"http:\/\/dev.capari.co\/project" =================> "https:\/\/dev.capari.co\/project"
+	SEARCH 12:"http%3A%2F%2Fdev.capari.co%2Fproject" ============> "https%3A%2F%2Fdev.capari.co%2Fproject"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  4:"\Applications\MAMP\htdocs\shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  7:"//localhost/shop" ================================> "//dev.capari.co/project"
+	SEARCH  8:"\/\/localhost\/shop" =============================> "\/\/dev.capari.co\/project"
+	SEARCH  9:"%2F%2Flocalhost%2Fshop" ==========================> "%2F%2Fdev.capari.co%2Fproject"
+	SEARCH 10:"http://dev.capari.co/project" ====================> "https://dev.capari.co/project"
+	SEARCH 11:"http:\/\/dev.capari.co\/project" =================> "https:\/\/dev.capari.co\/project"
+	SEARCH 12:"http%3A%2F%2Fdev.capari.co%2Fproject" ============> "https%3A%2F%2Fdev.capari.co%2Fproject"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  4:"\Applications\MAMP\htdocs\shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  7:"//localhost/shop" ================================> "//dev.capari.co/project"
+	SEARCH  8:"\/\/localhost\/shop" =============================> "\/\/dev.capari.co\/project"
+	SEARCH  9:"%2F%2Flocalhost%2Fshop" ==========================> "%2F%2Fdev.capari.co%2Fproject"
+	SEARCH 10:"http://dev.capari.co/project" ====================> "https://dev.capari.co/project"
+	SEARCH 11:"http:\/\/dev.capari.co\/project" =================> "https:\/\/dev.capari.co\/project"
+	SEARCH 12:"http%3A%2F%2Fdev.capari.co%2Fproject" ============> "https%3A%2F%2Fdev.capari.co%2Fproject"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_addon_feed"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_addon_payment_callback"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_addon_payment_transaction"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_draft_submissions"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_entry"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_entry_meta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_entry_notes"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_form"______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  4:"\Applications\MAMP\htdocs\shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  7:"//localhost/shop" ================================> "//dev.capari.co/project"
+	SEARCH  8:"\/\/localhost\/shop" =============================> "\/\/dev.capari.co\/project"
+	SEARCH  9:"%2F%2Flocalhost%2Fshop" ==========================> "%2F%2Fdev.capari.co%2Fproject"
+	SEARCH 10:"http://dev.capari.co/project" ====================> "https://dev.capari.co/project"
+	SEARCH 11:"http:\/\/dev.capari.co\/project" =================> "https:\/\/dev.capari.co\/project"
+	SEARCH 12:"http%3A%2F%2Fdev.capari.co%2Fproject" ============> "https%3A%2F%2Fdev.capari.co%2Fproject"
+
+EVALUATE TABLE: "wp_gf_form_meta"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  4:"\Applications\MAMP\htdocs\shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  7:"//localhost/shop" ================================> "//dev.capari.co/project"
+	SEARCH  8:"\/\/localhost\/shop" =============================> "\/\/dev.capari.co\/project"
+	SEARCH  9:"%2F%2Flocalhost%2Fshop" ==========================> "%2F%2Fdev.capari.co%2Fproject"
+	SEARCH 10:"http://dev.capari.co/project" ====================> "https://dev.capari.co/project"
+	SEARCH 11:"http:\/\/dev.capari.co\/project" =================> "https:\/\/dev.capari.co\/project"
+	SEARCH 12:"http%3A%2F%2Fdev.capari.co%2Fproject" ============> "https%3A%2F%2Fdev.capari.co%2Fproject"
+
+EVALUATE TABLE: "wp_gf_form_revisions"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_form_view"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_rest_api_keys"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  4:"\Applications\MAMP\htdocs\shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  7:"//localhost/shop" ================================> "//dev.capari.co/project"
+	SEARCH  8:"\/\/localhost\/shop" =============================> "\/\/dev.capari.co\/project"
+	SEARCH  9:"%2F%2Flocalhost%2Fshop" ==========================> "%2F%2Fdev.capari.co%2Fproject"
+	SEARCH 10:"http://dev.capari.co/project" ====================> "https://dev.capari.co/project"
+	SEARCH 11:"http:\/\/dev.capari.co\/project" =================> "https:\/\/dev.capari.co\/project"
+	SEARCH 12:"http%3A%2F%2Fdev.capari.co%2Fproject" ============> "https%3A%2F%2Fdev.capari.co%2Fproject"
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   321][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  4:"\Applications\MAMP\htdocs\shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  7:"//localhost/shop" ================================> "//dev.capari.co/project"
+	SEARCH  8:"\/\/localhost\/shop" =============================> "\/\/dev.capari.co\/project"
+	SEARCH  9:"%2F%2Flocalhost%2Fshop" ==========================> "%2F%2Fdev.capari.co%2Fproject"
+	SEARCH 10:"http://dev.capari.co/project" ====================> "https://dev.capari.co/project"
+	SEARCH 11:"http:\/\/dev.capari.co\/project" =================> "https:\/\/dev.capari.co\/project"
+	SEARCH 12:"http%3A%2F%2Fdev.capari.co%2Fproject" ============> "https%3A%2F%2Fdev.capari.co%2Fproject"
+
+EVALUATE TABLE: "wp_pimwick_gift_card"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pimwick_gift_card_activity"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   190][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  4:"\Applications\MAMP\htdocs\shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  7:"//localhost/shop" ================================> "//dev.capari.co/project"
+	SEARCH  8:"\/\/localhost\/shop" =============================> "\/\/dev.capari.co\/project"
+	SEARCH  9:"%2F%2Flocalhost%2Fshop" ==========================> "%2F%2Fdev.capari.co%2Fproject"
+	SEARCH 10:"http://dev.capari.co/project" ====================> "https://dev.capari.co/project"
+	SEARCH 11:"http:\/\/dev.capari.co\/project" =================> "https:\/\/dev.capari.co\/project"
+	SEARCH 12:"http%3A%2F%2Fdev.capari.co%2Fproject" ============> "https%3A%2F%2Fdev.capari.co%2Fproject"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:    28][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  4:"\Applications\MAMP\htdocs\shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  7:"//localhost/shop" ================================> "//dev.capari.co/project"
+	SEARCH  8:"\/\/localhost\/shop" =============================> "\/\/dev.capari.co\/project"
+	SEARCH  9:"%2F%2Flocalhost%2Fshop" ==========================> "%2F%2Fdev.capari.co%2Fproject"
+	SEARCH 10:"http://dev.capari.co/project" ====================> "https://dev.capari.co/project"
+	SEARCH 11:"http:\/\/dev.capari.co\/project" =================> "https:\/\/dev.capari.co\/project"
+	SEARCH 12:"http%3A%2F%2Fdev.capari.co%2Fproject" ============> "https%3A%2F%2Fdev.capari.co%2Fproject"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  4:"\Applications\MAMP\htdocs\shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  7:"//localhost/shop" ================================> "//dev.capari.co/project"
+	SEARCH  8:"\/\/localhost\/shop" =============================> "\/\/dev.capari.co\/project"
+	SEARCH  9:"%2F%2Flocalhost%2Fshop" ==========================> "%2F%2Fdev.capari.co%2Fproject"
+	SEARCH 10:"http://dev.capari.co/project" ====================> "https://dev.capari.co/project"
+	SEARCH 11:"http:\/\/dev.capari.co\/project" =================> "https:\/\/dev.capari.co\/project"
+	SEARCH 12:"http%3A%2F%2Fdev.capari.co%2Fproject" ============> "https%3A%2F%2Fdev.capari.co%2Fproject"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  4:"\Applications\MAMP\htdocs\shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  7:"//localhost/shop" ================================> "//dev.capari.co/project"
+	SEARCH  8:"\/\/localhost\/shop" =============================> "\/\/dev.capari.co\/project"
+	SEARCH  9:"%2F%2Flocalhost%2Fshop" ==========================> "%2F%2Fdev.capari.co%2Fproject"
+	SEARCH 10:"http://dev.capari.co/project" ====================> "https://dev.capari.co/project"
+	SEARCH 11:"http:\/\/dev.capari.co\/project" =================> "https:\/\/dev.capari.co\/project"
+	SEARCH 12:"http%3A%2F%2Fdev.capari.co%2Fproject" ============> "https%3A%2F%2Fdev.capari.co%2Fproject"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  4:"\Applications\MAMP\htdocs\shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  7:"//localhost/shop" ================================> "//dev.capari.co/project"
+	SEARCH  8:"\/\/localhost\/shop" =============================> "\/\/dev.capari.co\/project"
+	SEARCH  9:"%2F%2Flocalhost%2Fshop" ==========================> "%2F%2Fdev.capari.co%2Fproject"
+	SEARCH 10:"http://dev.capari.co/project" ====================> "https://dev.capari.co/project"
+	SEARCH 11:"http:\/\/dev.capari.co\/project" =================> "https:\/\/dev.capari.co\/project"
+	SEARCH 12:"http%3A%2F%2Fdev.capari.co%2Fproject" ============> "https%3A%2F%2Fdev.capari.co%2Fproject"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  4:"\Applications\MAMP\htdocs\shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  7:"//localhost/shop" ================================> "//dev.capari.co/project"
+	SEARCH  8:"\/\/localhost\/shop" =============================> "\/\/dev.capari.co\/project"
+	SEARCH  9:"%2F%2Flocalhost%2Fshop" ==========================> "%2F%2Fdev.capari.co%2Fproject"
+	SEARCH 10:"http://dev.capari.co/project" ====================> "https://dev.capari.co/project"
+	SEARCH 11:"http:\/\/dev.capari.co\/project" =================> "https:\/\/dev.capari.co\/project"
+	SEARCH 12:"http%3A%2F%2Fdev.capari.co%2Fproject" ============> "https%3A%2F%2Fdev.capari.co%2Fproject"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  4:"\Applications\MAMP\htdocs\shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  7:"//localhost/shop" ================================> "//dev.capari.co/project"
+	SEARCH  8:"\/\/localhost\/shop" =============================> "\/\/dev.capari.co\/project"
+	SEARCH  9:"%2F%2Flocalhost%2Fshop" ==========================> "%2F%2Fdev.capari.co%2Fproject"
+	SEARCH 10:"http://dev.capari.co/project" ====================> "https://dev.capari.co/project"
+	SEARCH 11:"http:\/\/dev.capari.co\/project" =================> "https:\/\/dev.capari.co\/project"
+	SEARCH 12:"http%3A%2F%2Fdev.capari.co%2Fproject" ============> "https%3A%2F%2Fdev.capari.co%2Fproject"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  4:"\Applications\MAMP\htdocs\shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  7:"//localhost/shop" ================================> "//dev.capari.co/project"
+	SEARCH  8:"\/\/localhost\/shop" =============================> "\/\/dev.capari.co\/project"
+	SEARCH  9:"%2F%2Flocalhost%2Fshop" ==========================> "%2F%2Fdev.capari.co%2Fproject"
+	SEARCH 10:"http://dev.capari.co/project" ====================> "https://dev.capari.co/project"
+	SEARCH 11:"http:\/\/dev.capari.co\/project" =================> "https:\/\/dev.capari.co\/project"
+	SEARCH 12:"http%3A%2F%2Fdev.capari.co%2Fproject" ============> "https%3A%2F%2Fdev.capari.co%2Fproject"
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  4:"\Applications\MAMP\htdocs\shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  7:"//localhost/shop" ================================> "//dev.capari.co/project"
+	SEARCH  8:"\/\/localhost\/shop" =============================> "\/\/dev.capari.co\/project"
+	SEARCH  9:"%2F%2Flocalhost%2Fshop" ==========================> "%2F%2Fdev.capari.co%2Fproject"
+	SEARCH 10:"http://dev.capari.co/project" ====================> "https://dev.capari.co/project"
+	SEARCH 11:"http:\/\/dev.capari.co\/project" =================> "https:\/\/dev.capari.co\/project"
+	SEARCH 12:"http%3A%2F%2Fdev.capari.co%2Fproject" ============> "https%3A%2F%2Fdev.capari.co%2Fproject"
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  4:"\Applications\MAMP\htdocs\shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  7:"//localhost/shop" ================================> "//dev.capari.co/project"
+	SEARCH  8:"\/\/localhost\/shop" =============================> "\/\/dev.capari.co\/project"
+	SEARCH  9:"%2F%2Flocalhost%2Fshop" ==========================> "%2F%2Fdev.capari.co%2Fproject"
+	SEARCH 10:"http://dev.capari.co/project" ====================> "https://dev.capari.co/project"
+	SEARCH 11:"http:\/\/dev.capari.co\/project" =================> "https:\/\/dev.capari.co\/project"
+	SEARCH 12:"http%3A%2F%2Fdev.capari.co%2Fproject" ============> "https%3A%2F%2Fdev.capari.co%2Fproject"
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  4:"\Applications\MAMP\htdocs\shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  7:"//localhost/shop" ================================> "//dev.capari.co/project"
+	SEARCH  8:"\/\/localhost\/shop" =============================> "\/\/dev.capari.co\/project"
+	SEARCH  9:"%2F%2Flocalhost%2Fshop" ==========================> "%2F%2Fdev.capari.co%2Fproject"
+	SEARCH 10:"http://dev.capari.co/project" ====================> "https://dev.capari.co/project"
+	SEARCH 11:"http:\/\/dev.capari.co\/project" =================> "https:\/\/dev.capari.co\/project"
+	SEARCH 12:"http%3A%2F%2Fdev.capari.co%2Fproject" ============> "https%3A%2F%2Fdev.capari.co%2Fproject"
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  4:"\Applications\MAMP\htdocs\shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  7:"//localhost/shop" ================================> "//dev.capari.co/project"
+	SEARCH  8:"\/\/localhost\/shop" =============================> "\/\/dev.capari.co\/project"
+	SEARCH  9:"%2F%2Flocalhost%2Fshop" ==========================> "%2F%2Fdev.capari.co%2Fproject"
+	SEARCH 10:"http://dev.capari.co/project" ====================> "https://dev.capari.co/project"
+	SEARCH 11:"http:\/\/dev.capari.co\/project" =================> "https:\/\/dev.capari.co\/project"
+	SEARCH 12:"http%3A%2F%2Fdev.capari.co%2Fproject" ============> "https%3A%2F%2Fdev.capari.co%2Fproject"
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  4:"\Applications\MAMP\htdocs\shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  7:"//localhost/shop" ================================> "//dev.capari.co/project"
+	SEARCH  8:"\/\/localhost\/shop" =============================> "\/\/dev.capari.co\/project"
+	SEARCH  9:"%2F%2Flocalhost%2Fshop" ==========================> "%2F%2Fdev.capari.co%2Fproject"
+	SEARCH 10:"http://dev.capari.co/project" ====================> "https://dev.capari.co/project"
+	SEARCH 11:"http:\/\/dev.capari.co\/project" =================> "https:\/\/dev.capari.co\/project"
+	SEARCH 12:"http%3A%2F%2Fdev.capari.co%2Fproject" ============> "https%3A%2F%2Fdev.capari.co%2Fproject"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcpv_commissions"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcpv_per_product_shipping_rules"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  4:"\Applications\MAMP\htdocs\shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  7:"//localhost/shop" ================================> "//dev.capari.co/project"
+	SEARCH  8:"\/\/localhost\/shop" =============================> "\/\/dev.capari.co\/project"
+	SEARCH  9:"%2F%2Flocalhost%2Fshop" ==========================> "%2F%2Fdev.capari.co%2Fproject"
+	SEARCH 10:"http://dev.capari.co/project" ====================> "https://dev.capari.co/project"
+	SEARCH 11:"http:\/\/dev.capari.co\/project" =================> "https:\/\/dev.capari.co\/project"
+	SEARCH 12:"http%3A%2F%2Fdev.capari.co%2Fproject" ============> "https%3A%2F%2Fdev.capari.co%2Fproject"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yoast_seo_links"______________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  4:"\Applications\MAMP\htdocs\shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  7:"//localhost/shop" ================================> "//dev.capari.co/project"
+	SEARCH  8:"\/\/localhost\/shop" =============================> "\/\/dev.capari.co\/project"
+	SEARCH  9:"%2F%2Flocalhost%2Fshop" ==========================> "%2F%2Fdev.capari.co%2Fproject"
+	SEARCH 10:"http://dev.capari.co/project" ====================> "https://dev.capari.co/project"
+	SEARCH 11:"http:\/\/dev.capari.co\/project" =================> "https:\/\/dev.capari.co\/project"
+	SEARCH 12:"http%3A%2F%2Fdev.capari.co%2Fproject" ============> "https%3A%2F%2Fdev.capari.co%2Fproject"
+
+EVALUATE TABLE: "wp_yoast_seo_meta"_______________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  4:"\Applications\MAMP\htdocs\shop" ==================> "/home/capari12/public_html/dev/project"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\shop" ==============> "\/home\/capari12\/public_html\/dev\/project"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cshop" ==========> "%2Fhome%2Fcapari12%2Fpublic_html%2Fdev%2Fproject"
+	SEARCH  7:"//localhost/shop" ================================> "//dev.capari.co/project"
+	SEARCH  8:"\/\/localhost\/shop" =============================> "\/\/dev.capari.co\/project"
+	SEARCH  9:"%2F%2Flocalhost%2Fshop" ==========================> "%2F%2Fdev.capari.co%2Fproject"
+	SEARCH 10:"http://dev.capari.co/project" ====================> "https://dev.capari.co/project"
+	SEARCH 11:"http:\/\/dev.capari.co\/project" =================> "https:\/\/dev.capari.co\/project"
+	SEARCH 12:"http%3A%2F%2Fdev.capari.co%2Fproject" ============> "https%3A%2F%2Fdev.capari.co%2Fproject"
+--------------------------------------
+SCANNED:	Tables:61 	|	 Rows:683 	|	 Cells:3504 
+UPDATED:	Tables:5 	|	 Rows:45 	|	 Cells:49 
+ERRORS:		0 
+RUNTIME:	0.349100 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""capari12_shop""
+	UPDATE DB_USER ""capari12_shop""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__f354146-17192114' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => simple-google-recaptcha/simple-google-recaptcha.php
+    [1] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 07:24:58 - RUNTIME: 0.3717 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
